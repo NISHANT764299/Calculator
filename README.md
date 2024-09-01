@@ -1,4 +1,8 @@
-# Calculator
+# Calculator_GUI
+
+DISCRIPTION : This code creates a basic calculator using Tkinter. It features buttons for digits 0-9, basic operators (+, -, *, /), a clear button, and an equals button. The display updates as digits are pressed, and the calculation results are shown after pressing '='. The `get_digit()` function updates the display with digits, `get_operator()` stores the current number and chosen operation, and `get_result()` performs the calculation and updates the display.
+
+
 from tkinter import *
 
 num1=num2=operator=None
